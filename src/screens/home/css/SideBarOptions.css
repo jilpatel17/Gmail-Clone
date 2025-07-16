@@ -1,0 +1,26 @@
+.sidebar__option{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 0px 25px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+.sidebar__option:hover{
+    background-color: #d3e3fd;
+}
+.sidebar__option h2{
+    font-size: 15px;
+    flex: 1;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.sidebar__option p{
+    opacity: 1;
+    font-size: 13px;
+    color: rgb(94, 94, 94);
+}
+

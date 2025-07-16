@@ -1,0 +1,60 @@
+.inbox__container{
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .active_link_nav{
+     border-bottom: 3px solid #2c79ad;
+ }
+ 
+ .email__body{
+     display: flex;
+     align-items: center;
+     border-bottom:1px solid rgb(232, 232, 232) ;
+     padding: 10px;
+     height: 40px;
+     cursor: pointer;
+ }
+ .email__body:hover{
+     box-shadow: 1px 1px 4px gray;
+ }
+ 
+ .email__left{
+     display: flex;
+     align-items: center;
+     min-width: 250px;
+     flex: 20%;
+ }
+ .email_readed{
+     display: flex;
+     align-items: center;
+     border-bottom:1px solid rgb(232, 232, 232) ;
+     padding: 10px;
+     height: 40px;
+     cursor: pointer;
+     background-color: rgb(245, 245, 245);
+ }
+ .email__middle{
+     display: flex;
+     align-items: center;
+     flex: 70%;
+ }
+ .email__right{
+     display: flex;
+     align-items: center;
+     flex: 10%;
+ }
+ .main__email__list_body{
+     overflow: scroll;
+     height: 75vh;
+ }
+ .main__email__list_body::-webkit-scrollbar{
+     width: 12px;
+ }
+ .main__email__list_body::-webkit-scrollbar-thumb{
+     border-radius: 10px;
+     background-color: #2c79ad;
+ }
+ .email_readed:hover{
+    box-shadow: 0px 0px 1px gray;
+}

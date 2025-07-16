@@ -1,0 +1,43 @@
+.mail__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.subject__body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subject__itself{
+    display: flex;
+    align-items: center;
+}
+.subject__itself p{
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.mail__details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.mail__details .mail__content{
+    display: flex;
+    align-items: center;
+}
+
+.inbox_email_detail .inbox__detail{
+    display: flex;
+    align-items: center;
+}
+.mail__details .timeing{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.main_message{
+    padding: 10px 50px;
+}

@@ -1,0 +1,45 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f8fc;
+    height: 90vh;
+}
+
+.compose__btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.compose:hover{
+    transform: scale(1.01);
+    box-shadow:2px 2px 2px #ccc;
+}
+
+.label__sidebar{
+    margin: 20px 5px;
+}
+
+.label__sidebar .title{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.label__sidebar .title h2{
+    font-size: 19px;
+    color: rgb(94, 94, 94);
+}
+
+.active{
+    background-color: #f7cdca;
+    font-weight: bolder;
+    color: rgb(207, 9, 9);
+}
+
+.active__link{
+    height: 35px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 90%;
+}
